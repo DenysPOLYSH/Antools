@@ -1,15 +1,16 @@
 body{
     background: #1E252B;
     font-family: Poppins;
+    font-size: 16px;
 }
 .header{
     padding-top: 26px;
 }
-.header .container{
+.container-wrap{
     display: flex;
     align-items: center;
 }
-.header-logo{
+.header-logo-text{
 font-size: 22px;
 font-weight: 600;
 line-height: 33px;
@@ -20,7 +21,6 @@ margin-left: 21px;
 color: #FFFFFFE5;
 }
 .nav-list{
-font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0em;
@@ -37,7 +37,9 @@ gap: 40px;
 }
 .registration-list{
     display: flex;
-    margin-left: 193px;
+    margin-left: auto;
+    gap: 20px;
+    align-items: center;
 }
 .registration-list-item{
     display: flex;
@@ -95,7 +97,8 @@ margin-bottom: 60px;
 .hero-list{
     display: flex;
     margin-top: 121px;
-    padding-left: 123;
+    padding-left: 123px;
+    gap: 20px;
 }
 .hero-list-item{
     margin-right: 30px;
@@ -138,7 +141,6 @@ padding-bottom: 22px;
     background-image: url(../images/search.jpg);
 }
 .hero-form-btn{
-font-size: 16px;
 font-weight: 600;
 line-height: 24px;
 letter-spacing: 0em;
@@ -162,30 +164,31 @@ text-align: center;
 color: #FFFFFFE5;
 }
 .popular-text{
+    width: 400px;
+    margin: 0 auto;
 font-size: 18px;
 font-weight: 500;
 line-height: 30px;
 letter-spacing: 0em;
 text-align: center;
 color: #FFFFFF8C;
-padding-top: 25px;
-padding-bottom: 90px;
+margin-top: 20px;
+margin-bottom: 90px;
 }
 .popular-list{
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 100px;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 .popular-list-desc{
     display: flex;
     gap: 30px;
 }
 .popular-list-item{
-    /* flex-basis: calc((100% - 124px) / 3);  */
+    flex-basis: calc((100% - 124px) / 3);  
     padding: 33px;
-    max-width: 392px;
 }
 .popular-list-title{
 font-size: 24px;
@@ -194,10 +197,6 @@ line-height: 36px;
 letter-spacing: 0em;
 text-align: left;
 color: #FFFFFFC7;
-}
-.popular-list-img{
-    padding-right: 30px;
-    padding-bottom: 31px;
 }
 .popular-list-cost{
 font-size: 18px;
@@ -208,7 +207,7 @@ text-align: left;
 color: #FFA5378C;
 }
 .popular-list-lorem{
-font-size: 16px;
+    width: 326px;
 font-weight: 400;
 line-height: 30px;
 letter-spacing: 0em;
@@ -221,7 +220,6 @@ padding-bottom: 30px;
     display: flex;
 }
 .popular-list-link{
-font-size: 16px;
 font-weight: 600;
 line-height: 24px;
 letter-spacing: 0em;
@@ -265,15 +263,13 @@ margin-bottom: 55px;
 padding-left: 82px; */
 }
 .brand-title{
- display: flex;
+text-align: center;
 font-size: 24px;
 font-weight: 500;
 line-height: 36px;
 letter-spacing: 0em;
-text-align: left;
 margin-bottom: 55px;
 color: #FFFFFFCC;
-justify-content: center;
 }
 .section-newcomer{
     padding-top: 220px;
@@ -356,7 +352,6 @@ color: #FFFFFF8C;
 margin: 30px 0;
 }
 .newcomer-list-link{
-font-size: 16px;
 font-weight: 600;
 line-height: 24px;
 letter-spacing: 0em;
@@ -472,7 +467,6 @@ border: 1.5px;
 background-color: transparent;
 }
 .join-btn{
-font-size: 16px;
 font-weight: 600;
 line-height: 24px;
 letter-spacing: 0em;
@@ -541,7 +535,6 @@ margin-left: auto;
 
 .address-list-item {
     color: rgba(255, 255, 255, 0.55);
-    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -565,7 +558,6 @@ margin-left: auto;
 
 .categories-list-link {
     color: rgba(255, 255, 255, 0.55);
-    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -584,7 +576,6 @@ margin-left: auto;
 }
 .info-list-link {
     color: rgba(255, 255, 255, 0.55);
-    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
